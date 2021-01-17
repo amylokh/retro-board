@@ -11,10 +11,11 @@
     margin-left: 3px;
 }
 
-.has-gradient {
+.has-gradient-text {
     background: -webkit-linear-gradient(#13f7f4, #2af598);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: default;
 }
 
 .board {
@@ -32,6 +33,7 @@
             font-size: 20px;
             font-weight: bold;
             color: white;
+            cursor: default;
         }
     }
 
@@ -68,6 +70,7 @@
                     font-family: 'Lato', sans-serif;
                     text-transform: uppercase;
                     margin-bottom: 20px;
+                    cursor: default;
                 }
             }
         }
@@ -86,6 +89,7 @@
     background: white;
     border-bottom: solid 1px #ddd;
     border-radius: 4px;
+    cursor: pointer;
 
     margin-bottom: 15px;
 
